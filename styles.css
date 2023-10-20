@@ -1,0 +1,88 @@
+body,
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:verdana;
+}
+
+body{
+    background-image: url(crossline-lines.png);
+}
+main {
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.466);
+    background-image: linear-gradient(
+      180deg,
+      #0004ff,
+      #a50de6,
+      rgb(113, 0, 227)
+    );
+    padding: 30px 30px;
+    border-radius: 20px;
+    opacity: 0.8;
+    margin-top: 10px;
+}  
+
+.container {
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.card-container {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+input {
+    background-color: #fff;
+    min-width: 20px;
+    
+    margin: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    
+    
+  }
+  
+  button {
+    background-color: #0011ff;
+    min-width: 50px;
+    margin: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    transition: 0.5s;
+    
+  }
+
+ .btn:hover {
+    background-color: #4350fc;
+}
+.btn:active {
+    background-color: #5560fb;
+    transform: translateY(2px);
+
+}
+
+.data {
+    color: #00ff00;
+    font-weight: bold;
+}
+
